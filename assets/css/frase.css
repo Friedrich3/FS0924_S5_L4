@@ -44,7 +44,7 @@ span i {
 
     animation-name: textScroll;
     animation-duration: 6s;
-    animation-timing-function: ease-out;
+    animation-timing-function: linear;
     animation-delay: 0s;
     animation-iteration-count: infinite;
     
@@ -64,23 +64,25 @@ span i:nth-child(3){
    from{
         color: transparent;
         text-shadow: none;
-        top: -25px;
+        top: -30px;
    }
-   20%{
-    color: #53a3af;
+   30%{
+    color: transparent;
     top: -10px;
    }
    40%{
-    top: 0;
+    color: #53a3af;
+
+    top: -2px;
    }
    50%{
-    color:#357de9bb;
+    color:#53a3af;
     text-shadow: none;
-    top: 10px;
+    top: 0px;
    }
    70%{
     color: transparent;
-    text-shadow: 1px 1px 1px rgba(146, 146, 146, 0.8);
+    
     top: 25px;
    }
    to{

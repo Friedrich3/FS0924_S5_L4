@@ -22,12 +22,15 @@ height: 100vh;
 
 }
 #testoAlternato{
-    flex-basis:40%;
+    flex-basis:60%;
     padding: 30px;
     font-size: 2rem;
     line-height: 1.5;
     border: 2px solid black;
     color: #333;
+    display: flex;
+    justify-content: flex-start;
+
  
 }
 span{
@@ -40,6 +43,8 @@ span i {
     position: absolute;
     top: -25px;
     left:5px;
+
+    white-space: nowrap;
 
 
     animation-name: textScroll;
